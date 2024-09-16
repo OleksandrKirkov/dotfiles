@@ -1,0 +1,11 @@
+[user]
+    name = OleksandrKirkov
+    email = kirkovsasha009@gmail.com
+[github]
+    user = OleksandrKirkov
+[credential]
+    helper = cache
+[init]
+    defaultBranch = main
+[core]
+    editor = nvim
