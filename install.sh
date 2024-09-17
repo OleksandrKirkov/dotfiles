@@ -7,7 +7,7 @@ sudo apt-get install -y build-essential
 
 sudo apt install -y neovim python3-neovim git nodejs \
     npm curl zsh dotnet-sdk-8.0 aspnetcore-runtime-8.0 \
-    dotnet-runtime-8.0 zlib1g 
+    dotnet-runtime-8.0 zlib1g
 
 sudo snap install telegram-desktop spotify
 
