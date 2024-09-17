@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt-get update
 
-sudo apt-get install -y build-essential
+sudo apt-get install -y build-essential chrome-gnome-shell
 
 sudo apt install -y neovim python3-neovim git nodejs \
     npm curl zsh dotnet-sdk-8.0 aspnetcore-runtime-8.0 \
@@ -15,5 +15,8 @@ git clone https://github.com/OleksandrKirkov/nvim.git ~/.config
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/prod.list
-sudo cp prod.list /etc/apt/sources.list.d/mssql-release.list
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
