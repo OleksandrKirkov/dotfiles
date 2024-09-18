@@ -1,0 +1,42 @@
+shell = "zsh"
+
+[window]
+
+padding = { x = 8, y = 8 }
+# "Full" | "None"
+decorations = "Full"
+opacity = 0.8
+blur = true
+# "Windowed" | "Maximized" | "Fullscreen"
+startup_mode = "Windowed"
+
+[font]
+normal = { family = "GeistMono Nerd Font", style = "SemiBold" }
+bold = { family = "GeistMono Nerd Font", style = "UltraBlack" }
+italic = { family = "CaskaydiaCove Nerd Font", style = "SemiBold Italic" }
+bold_italic = { family = "CaskaydiaCove Nerd Font", style = "Bold Italic" }
+size = 12
+
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+
+[colors.normal]
+black = "#181818"
+red = "#AD2626"
+green = "#4DA147"
+yellow = "#E0823A"
+blue = "#4868C2"
+magenta = "#B242A7"
+cyan = "#28BF7B"
+white = "#E3E3E3"
+
+[colors.bright]
+black = "#292929"
+red = "#BF3939"
+green = "#6AB865"
+yellow = "#ED9858"
+blue = "#7693E3"
+magenta = "#CF7CC6"
+cyan = "#41E099"
+white = "#CCCCCC"
