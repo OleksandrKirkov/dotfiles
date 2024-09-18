@@ -10,6 +10,7 @@ sudo apt install -y neovim python3-neovim git nodejs \
     dotnet-runtime-8.0 zlib1g
 
 sudo snap install telegram-desktop spotify
+sudo snap install obsidian --classic
 
 git clone https://github.com/OleksandrKirkov/nvim.git ~/.config
 
