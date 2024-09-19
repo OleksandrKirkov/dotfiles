@@ -11,8 +11,9 @@ sudo apt install -y neovim python3-neovim git nodejs \
 
 sudo snap install telegram-desktop spotify
 sudo snap install obsidian --classic
+sudo snap install alacritty --classic
 
-git clone https://github.com/OleksandrKirkov/nvim.git ~/.config
+git clone https://github.com/OleksandrKirkov/nvim.git ~/.config/nvim
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
