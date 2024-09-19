@@ -40,3 +40,8 @@ blue = "#7693E3"
 magenta = "#CF7CC6"
 cyan = "#41E099"
 white = "#CCCCCC"
+
+[keyboard]
+bindings = [
+    { key = "F11", mods = "Control|Shift", action = "ToggleFullscreen" }
+]
